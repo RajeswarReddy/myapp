@@ -1,0 +1,16 @@
+<html>
+<head>
+  <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <body ng-app="" ng-init="s1={sno:1025,sname:'scott',course:'angular'}">
+  <h1>Angular JS Directives</h1>
+  <hr>
+  <span>
+  Student Id:{{s1.sno}}
+  <br>
+  studentname:{{s1.sname}}
+  <br>
+  course:{{s1.course}}
+  </span>
+  
+</body>
+</html>
